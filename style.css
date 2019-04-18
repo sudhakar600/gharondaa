@@ -1,0 +1,264 @@
+    a:hover {
+       cursor: pointer;
+       background-color: yellow;
+    }
+    body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.section {
+	min-height: 800px;
+	position: relative;
+	text-align: center;
+	font-family: sans-serif, arial;
+	margin: 0;
+}
+
+h1, p {
+	margin: 0;
+	font-family: sans-serif, arial;
+	font-weight: bold;
+}
+
+.text-wr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#section1 {
+	background: #5c53aa;
+	color: #8d86c3;
+}
+
+#section2 {
+	background: #4bbfc3;
+	color: #81d2d5;
+}
+
+#section3 {
+	background: #283044;
+	color: #686e7c;
+}
+
+#section4 {
+	background: #ebf5ee;
+	color: #aeb9b9;
+}
+#section5 {
+	background: #5c53aa;
+	color: #8d86c3;
+}
+#section6 {
+	background: #4bbfc3;
+	color: #81d2d5;
+}
+
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
+.title-top {
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+
+.title-bottom {
+	font-size: 30px;
+}
+
+.title-tx {
+	font-size: 20px;
+	opacity: 0.8;
+}
+
+.nav {
+	position: fixed; /*left: 50%;*/
+	width: 100%;
+	top: 20px;
+	z-index: 9;
+	padding-left: 10px;
+}
+
+.nav a {
+	padding: 7px 20px;
+	border-radius: 7px;
+	margin-right: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif, arial;
+	font-weight: 100;
+}
+
+.nav a.active {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.nav a:hover {
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.fork-wr img {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	right: 50px;
+	border: 0;
+}
+.body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+	height:197px;
+	width: 255px
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  padding: 20px;
+  margin-top: -47px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 5px;
+  left: 192px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.img{
+float:left;
+}
+.hey{
+	font-size: 30px;
+	color: #000;
+}
+.hey1{
+	font-size: 25px;
+	color: #000;
+	float:center;
+}
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
